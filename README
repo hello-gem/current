@@ -1,0 +1,67 @@
+
+= hello -- a sample ruby project
+
+This package contains a hello project which is meant to provide
+suggestions concerning how to structure and package ruby projects.
+
+* How to structure[link:files/doc/files_and_directories_rdoc.html]
+  project directories, which auxilliary files to
+  include in a distribution (README, CHANGELOG, etc)
+* providing source code documentation[link:files/doc/rdoc_rdoc.html] 
+  using +rdoc+ approriate unit test
+* {Automating tasks}[link:files/doc/rake_rdoc.html] using +rake+
+* {Functional testing}[link:files/doc/functional_testing_rdoc.html] 
+  using +Test+::+Unit+ build support using +rake+
+* {Packaging and distributing}[link:files/doc/rubygems_rdoc.html] your project using +rubygems+.
+* {Configuration}[link:files/doc/config_rdoc.html] and resource files.
+* Internationalizing[link:files/doc/i18n_rdoc.html] your application or library.
+* Providing (and parsing) proper {command line options}[link:files/doc/commandline_rdoc.html]
+* Handling {plattform specific}[link:files/doc/plattform_rdoc.html] issues.
+* {Distributing and promoting}[link:files/doc/dist_rdoc.html] your project.
+
+None of the suggestions here are set in stone, so feel free to do things
+diffrently if you feel it makes more sense. (I prefer to indent using
+tabs not spaces, which is the 'norm' in ruby). Consider this project to
+be a template that might help you through the tedium of setting up a
+project infrastructure to help you get coding real stuff quicker.
+
+== Installing
+
+Having a "Installing" section is a bit of a chicken or egg question.
+Someone reading the README has, in all likelyhood already installed your
+package. On the other hand, in case your project has a more involved
+build process, it might be worthwhile to consider describing it in a
+seperate INSTALL file.
+
+It can't hurt to provide canonical instructions for installation,
+though. You can install the +hello+ package by executing:
+
+	gem install hello -r
+
+alternatively, you can download +.tar.gz+ or +.zip+ archives from 
+Rubyforge[http://rubyforge.org/frs/?group_id=2203].
+
+
+== Mailing List
+
+In case you discover bugs, spelling errors, offer suggestions for
+improvements or would like to help out with the project, you can contact
+me directly (tim@kuriositaet.de) or through the mailing list
+(hello-talk@rubyforge.org).
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=

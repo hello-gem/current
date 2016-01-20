@@ -1,0 +1,21 @@
+= Version 0.0.1
+=== Sat May 12 15:56:51 CEST 2007
+* rubygem doesn't play nice with Version 0.0.0 ...
+
+= Version 0.0
+=== Wed Oct  4 22:31:04 CEST 2006
+* split up README into several smaller files.
+* added inline docs to hello.rb
+=== Sat Sep 16 20:00:00 CEST 2006
+* added some notes about Rubyforge and rdoc.
+* added THANKS
+* added Rake Task to upload generated docs to Rubyforge.
+=== Wed Sep 13 23:37:13 CEST 2006
+* added gem task
+*       clean
+=== Fri Sep  8 13:59:26 CEST 2006
+
+* Started development
+* Directory structure, README and CHANGELOG
+
+back[link:files/README.html]
